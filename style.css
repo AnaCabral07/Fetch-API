@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: "Cormorant SC", serif;
+    text-align: center;
+    background-image: url('https://static.videezy.com/system/resources/thumbnails/000/033/971/original/Sprectrum4.jpg');
+}
+
+#result {
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    color: #ffffff;
+}
+th, td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: left;
+    color: white
+}
+th {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}

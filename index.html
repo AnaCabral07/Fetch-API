@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Bandas/Artistas</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="lupa.png" type="png">
+
+</head>
+<body class="">
+    <h1 style="color: white;">Busca de Bandas e Artistas</h1>
+    <input type="text" id="search" placeholder="Digite o nome da banda/artista" required>
+    <button onclick="searchArtist()">Buscar</button>
+    <div id="result" style="display:none;">
+        <h2 style="color: white;">Informações do Artista</h2>
+        <p style="color: white;" id="artist-name"></p>
+        <p style="color: white;" id="artist-area"></p>
+        <p style="color: white;" id="artist-active"></p>
+        <h3 style="color: white;">Trabalhos</h3>
+        <table id="works">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Data de Lançamento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Trabalhos do artista vão ser inseridos aqui -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
